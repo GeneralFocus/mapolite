@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Mapolite</string>
+    <string name="dev_team">Nacoss Mapoly YSL LED</string>
+    <string name="title1_desc">Keep a diary, and someday it\'ll keep you.</string>
+    <string name="slide2_desc">A journal should be neither an echo nor a pander.</string>
+    <string name="slide2_title">Confidential</string>
+    <string name="slide3_title">Track Changes</string>
+    <string name="slide3_desc">You become aware with reassuring clarity of the changes which you constantly suffer.</string>
+    <string name="next">Next</string>
+    <string name="skip">Skip</string>
+    <string name="start">START</string>
+    <string name="pay_bills">Pay Bills</string>
+    <string name="pay_your_fees_and_other_right_from_your_one_click_app">Pay your fees and other right from your one click app</string>
+    <string name="one_click">One Click</string>
+    <string name="access_mapoly_portal_right_from_your_device">Access mapoly portal right from your device</string>
+    <string name="receive_information_at_the_speed_of_light_from_the_right_channel">Receive information at the speed of light from the right channel</string>
+    <string name="flash_info">Flash Info</string>
+    <string name="returning_student">Returning Student</string>
+    <string name="img">IMG</string>
+    <string name="belated_payment">Belated Payment</string>
+    <string name="fresh_students">Fresh Students</string>
+    <string name="school_fees">School Fees</string>
+    <string name="updates">Updates</string>
+    <string name="lms">LMS</string>
+</resources>

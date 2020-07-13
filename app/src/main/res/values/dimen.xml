@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="slide_title">30sp</dimen>
+    <dimen name="slide_desc">16sp</dimen>
+    <dimen name="desc_padding">40dp</dimen>
+    <dimen name="dots_height">30dp</dimen>
+    <dimen name="dots_margin_bottom">20dp</dimen>
+
+    <dimen name="padding_10">10dp</dimen>
+    <dimen name="padding_15">15dp</dimen>
+    <dimen name="padding_20">20dp</dimen>
+
+    <dimen name="margin_10">10dp</dimen>
+    <dimen name="margin_15">15dp</dimen>
+    <dimen name="margin_20">20dp</dimen>
+    <dimen name="margin_30">30dp</dimen>
+    <dimen name="margin_40">40dp</dimen>
+    <dimen name="margin_50">50dp</dimen>
+
+    <dimen name="card_height">180dp</dimen>
+    <dimen name="card_width">150dp</dimen>
+    <dimen name="card_elevation">5dp</dimen>
+
+    <dimen name="text_20">20sp</dimen>
+    <dimen name="text_19">19sp</dimen>
+    <dimen name="text_18">18sp</dimen>
+    <dimen name="text_17">17sp</dimen>
+    <dimen name="text_16">16sp</dimen>
+    <dimen name="text_15">15sp</dimen>
+</resources>
