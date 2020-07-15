@@ -6,11 +6,14 @@ import androidx.appcompat.widget.Toolbar;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.webkit.WebSettings;
+import android.webkit.WebView;
+import android.webkit.WebViewClient;
 
 import com.capriquota.mapolite.R;
 
 public class FreshStudentActivity extends AppCompatActivity {
-
+    private WebView webView;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -21,6 +24,7 @@ public class FreshStudentActivity extends AppCompatActivity {
         getSupportActionBar().setTitle("Fresh Student");
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
+
         toolbar.setNavigationOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -29,5 +33,20 @@ public class FreshStudentActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
+        webView =  findViewById(R.id.fresh_students_webview);
+        webView.setWebViewClient(new WebViewClient());
+        webView.loadUrl(" http://mapolyng.com/newportal/students_datafresh");
+        WebSettings webSettings = webView.getSettings();
+        webSettings.setJavaScriptEnabled(true);
+    }
+
+    @Override
+    public void onBackPressed() {
+        if (webView.canGoBack()){
+            webView.goBack();
+        }else {
+            super.onBackPressed();
+        }
     }
 }

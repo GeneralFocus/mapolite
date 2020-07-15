@@ -8,6 +8,10 @@
 
     <include
         android:id="@+id/fresh_student_toolbar"
-        layout="@layout/toolbar_layout"/>
+        layout="@layout/toolbar_layout" />
 
+    <WebView
+        android:id="@+id/fresh_students_webview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>
