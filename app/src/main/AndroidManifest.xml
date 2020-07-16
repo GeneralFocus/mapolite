@@ -10,12 +10,21 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".home.HomeActivity" android:theme="@style/Theme.AppCompat.Light.NoActionBar"/>
+        <activity android:name=".home.LMS"></activity>
+        <activity android:name=".home.updatesActivity" />
+        <activity android:name=".home.SchoolFeesActivity" />
+        <activity android:name=".home.FreshStudentActivity" />
+        <activity android:name=".home.BelatedPaymentActivity" />
+        <activity android:name=".home.ReturningStudentActivity" />
+        <activity
+            android:name=".home.HomeActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
         <activity android:name=".slides.SlideActivity" />
         <activity android:name=".splash.SplashActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <action android:name="android.intent.action.VIEW" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
