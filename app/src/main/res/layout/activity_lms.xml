@@ -6,4 +6,8 @@
     android:layout_height="match_parent"
     tools:context=".home.LMS">
 
+    <include
+        android:id="@+id/lms_toolbar"
+        layout="@layout/toolbar_layout"/>
+
 </androidx.constraintlayout.widget.ConstraintLayout>

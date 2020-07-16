@@ -6,4 +6,8 @@
     android:layout_height="match_parent"
     tools:context=".home.BelatedPaymentActivity">
 
+    <include
+        android:id="@+id/belated_payment_toolbar"
+        layout="@layout/toolbar_layout"/>
+
 </androidx.constraintlayout.widget.ConstraintLayout>
