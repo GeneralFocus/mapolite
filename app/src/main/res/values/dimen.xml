@@ -21,6 +21,8 @@
     <dimen name="card_width">150dp</dimen>
     <dimen name="card_elevation">5dp</dimen>
 
+    <dimen name="text_22">22sp</dimen>
+    <dimen name="text_21">21sp</dimen>
     <dimen name="text_20">20sp</dimen>
     <dimen name="text_19">19sp</dimen>
     <dimen name="text_18">18sp</dimen>
