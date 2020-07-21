@@ -80,7 +80,7 @@ public class HomeActivity extends AppCompatActivity{
             startActivity(intent);
         }
         else if (item.getItemId() == R.id.settings){
-            Intent intent = new Intent(HomeActivity.this, AboutActivity.class);
+            Intent intent = new Intent(HomeActivity.this, SettingsActivity.class);
             intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
             startActivity(intent);
         }

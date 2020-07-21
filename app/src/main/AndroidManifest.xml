@@ -13,8 +13,9 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true">
-        <activity android:name=".home.SettingsActivity"></activity>
-        <activity android:name=".home.AboutActivity" />
+        <activity android:name=".home.SettingsActivity" android:theme="@style/Theme.AppCompat.Light.NoActionBar"></activity>
+        <activity android:name=".home.AboutActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"/>
         <activity
             android:name=".home.LMS"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
