@@ -17,7 +17,7 @@ import com.capriquota.mapolite.R;
 
 public class HomeActivity extends AppCompatActivity{
 
-    private CardView returning_student, belated_payments, fresh_students, school_fees, updates, lms;
+    private CardView returning_student, belated_payments, fresh_students, lms;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -30,8 +30,6 @@ public class HomeActivity extends AppCompatActivity{
         returning_student = findViewById(R.id.returning_student);
         belated_payments = findViewById(R.id.belated_payment);
         fresh_students = findViewById(R.id.fresh_students);
-        school_fees = findViewById(R.id.school_fees);
-        updates = findViewById(R.id.updates);
         lms = findViewById(R.id.lms);
 
         returning_student.setOnClickListener(new View.OnClickListener() {
@@ -58,22 +56,6 @@ public class HomeActivity extends AppCompatActivity{
             }
         });
 
-        school_fees.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(HomeActivity.this, SchoolFeesActivity.class);
-                startActivity(intent);
-            }
-        });
-
-        updates.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(HomeActivity.this, updatesActivity.class);
-                startActivity(intent);
-            }
-        });
-
         lms.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -92,6 +74,17 @@ public class HomeActivity extends AppCompatActivity{
 
     @Override
     public boolean onOptionsItemSelected(@NonNull MenuItem item) {
+        if (item.getItemId() == R.id.about){
+            Intent intent = new Intent(HomeActivity.this, AboutActivity.class);
+            intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+            startActivity(intent);
+        }
+        else if (item.getItemId() == R.id.settings){
+            Intent intent = new Intent(HomeActivity.this, AboutActivity.class);
+            intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+            startActivity(intent);
+        }
+
         return false;
     }
 }

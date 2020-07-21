@@ -4,10 +4,6 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".home.updatesActivity">
-
-    <include
-        android:id="@+id/updates_toolbar"
-        layout="@layout/toolbar_layout"/>
+    tools:context=".home.AboutActivity">
 
 </androidx.constraintlayout.widget.ConstraintLayout>
